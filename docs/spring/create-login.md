@@ -13,8 +13,6 @@ nav_order: 1
 
 {: .no_toc .text-delta }
 
-1. TOC
-
 {:toc}
 
 ---
@@ -102,7 +100,7 @@ public class UserService {
 
   2️⃣ 비밀번호가 일치하지 않는 경우
 
-- **ErrorCode**는 ([Exception 처리](Exception처리.md) 참고)
+- **ErrorCode**는 ([Exception 처리](https://github.com/Soyeong4250/spring-security-exercise/blob/master/note/Exception%EC%B2%98%EB%A6%AC.md) 참고)
 
 **UserLoginReqDto**
 
@@ -264,8 +262,7 @@ public class UserService {
 
 **💡 실행 결과**
 
-![image-20221129152223304](../../assets/images/image-20221129152223304.png)
-
+![image-20221129152223304](./assets/image-20221129152223304.png)
 
 
 👉 로그인에 성공하여 Token이 발행
