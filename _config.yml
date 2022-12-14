@@ -19,40 +19,40 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Soyeong4250.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #Site Author
-author:
-  name: "Soyeong"
-  avartar: "/assets/images/profileImg.jpg"
-  bio: "Java, SpringBoot를 이용한 백엔드 개발 학습중"
-  location: "Republic of Korea"
-  email: 
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:th42500@naver.com
-    - label: "GitHub"
-      icon: "https://github.com/eona1301"
-      url: "https://github.com/Soyeong4250"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/soyeong_4250/"
+# author:
+#   name: "Soyeong"
+#   avartar: "/assets/images/profileImg.jpg"
+#   bio: "Java, SpringBoot를 이용한 백엔드 개발 학습중"
+#   location: "Republic of Korea"
+#   email: 
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: mailto:th42500@naver.com
+#     - label: "GitHub"
+#       icon: "https://github.com/eona1301"
+#       url: "https://github.com/Soyeong4250"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://www.instagram.com/soyeong_4250/"
 
-footer:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:th42500@naver.com
-    - label: "GitHub"
-      icon: "https://github.com/eona1301"
-      url: "https://github.com/Soyeong4250"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/soyeong_4250/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: ""
+# footer:
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: mailto:th42500@naver.com
+#     - label: "GitHub"
+#       icon: "https://github.com/eona1301"
+#       url: "https://github.com/Soyeong4250"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://www.instagram.com/soyeong_4250/"
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       # url:
+#     - label: "Facebook"
+#       icon: "fab fa-fw fa-facebook-square"
+#       # url: ""
 
 permalink: pretty
 
