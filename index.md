@@ -2,50 +2,69 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Soyeong's Blog"
 permalink: /
 ---
 
-# Focus on writing good documentation
+# Welcome to Soyeong's github.io
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+안녕하세요. 현재 백엔드 개발자를 준비하고 있는 이소영입니다.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[소개 보러가기](#Introduce){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View it on GitHub][Soyeong's repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-{: .warning }
-> This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({{ site.baseurl }}{% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes. 
+## Introduce
+**공감하는 개발자 이소영입니다**
 
-Just the Docs is a theme for generating static websites with [Jekyll]. You can write source files for your web pages using [Markdown], the [Liquid] templating language, and HTML.[^1] Jekyll builds your site by converting all files that have [front matter] to HTML. Your [Jekyll configuration] file determines which theme to use, and sets general parameters for your site, such as the URL of its home page.
+{: .note }사용자의 관점에서 생각해보고 그들의 니즈를 정확히 파악해 이용하기 편리하도록 세심한 배려가 깃든 개발을 하는 것을 선호합니다.
+좋은 툴, 좋은 프레임워크를 이용해서 개발을 했더라도 사용자의 니즈를 충족하지 못한다면 이는 좋은 개발이라고 할 수 없습니다.
+<br />
+<br />
+🔥 새로운 것에 도전하고 주도적으로 업무를 수행할 수 있는 환경을 선호합니다.🔥
 
-Jekyll builds this Just the Docs theme docs website using the theme itself. These web pages show how your web pages will look *by default* when you use this theme. But you can easily *[customize]* the theme to make them look completely different!
 
-Browse the docs to learn more about how to use this theme.
+## Dev Stack
+### Backend
+Java ⭐⭐⭐⭐
+ - 객체지향의 개념을 이해하고 활용할 수 있습니다.
+ - Lambda와 Stream을 이용하여 코드를 간결하게 표현할 수 있습니다.
+ - Java를 기반으로 대용량 데이터 Parsing을 구현한 경험이 있습니다.
 
-## Getting started
+ Spring Boot ⭐⭐⭐
+ - Spring MVC에 대해 이해하고 있습니다.
+ - Restful API에 대한 기본 지식을 갖추고 있으며, 이를 활용한 웹 어플리케이션을 개발한 경험이 있습니다.
 
-The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
+ Spring Security & JWT ⭐⭐
+ - Spring Security의 FilterChain에 대해 이해하고 있습니다.
+ - JWT가 무엇인지에 대해 이해하고 있습니다.
+ - Spring Security와 JWT를 이용한 사용자 권한에 따른 인가 처리 경험이 있습니다.
 
-{: .note }
-To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs.
+JPA ⭐⭐
+ - JPA 인터페이스를 이해하고 이를 활용하여 간단한 웹 어플리케이션을 개발한 경험이 있습니다.
+<br />
+ ### Database
+MySQL ⭐⭐⭐
+ - 데이터베이스 및 데이터 생성, 조회, 수정, 삭제 쿼리문을 이용하여 데이터 조작이 가능합니다.
+ - WHERE, GROUPBY, HAVING, ORDERBY, JOIN 쿼리문을 활용할 수 있습니다.
+<br />
+### Frontend
+ Vue ⭐⭐
+  - Vue-Router를 이용하여 SPA(Single Page Application)를 제작한 경험이 있습니다.
+  - Vuex를 활용하여 store의 데이터 관리를 할 수 있습니다.
+  - Vue.js와 Axios를 이용한 프로젝트 경험이 있습니다.
+<br />
+### Communcation
+GitHub
+ - Git Flow를 이해하고 Git과 SourceTree를 활용한 협업 프로젝트 경험이 있습니다.
+Jira
+ - Jira를 이용한 Agile 방식의 프로젝트 경험이 있습니다.
+Notion
+ - Notion을 활용한 이슈 기록 및 프로젝트 회의록 등의 문석 작업에 익숙합니다.
 
-You can easily set the site created by the template to be published on [GitHub Pages] – the [template README] file explains how to do that, along with other details.
-
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^2] And you will be able to deploy your local build to a different platform than GitHub Pages.
-
-More specifically, the created site:
-
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-{: .note }
-See the theme [README][Just the Docs README] for how to use the theme as a gem without creating a new site.
 
 ## About the project
 
@@ -90,7 +109,7 @@ Just the Docs is committed to fostering a welcoming community.
 [source file for this page]: https://github.com/just-the-docs/just-the-docs/blob/main/index.md
 [Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
+[Soyeong's repo]: https://github.com/Soyeong4250
 [Just the Docs README]: https://github.com/just-the-docs/just-the-docs/blob/main/README.md
 [GitHub Pages]: https://pages.github.com/
 [Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
