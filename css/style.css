@@ -560,6 +560,8 @@ body.offcanvas {
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-1 {
+    background: var(--color-1); }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
     background: var(--color-2); }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
