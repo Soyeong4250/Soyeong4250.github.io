@@ -699,6 +699,12 @@ body.offcanvas {
       font-size: 16px;
       font-weight: 700;
       text-transform: uppercase; }
+  .services.color-1 .icon {
+    background: var(--color-1); }
+    .services.color-1 .icon:before {
+      border-color: transparent transparent var(--color-1) transparent; }
+    .services.color-1 .icon:after {
+      border-color: var(--color-1) transparent transparent transparent; }
   .services.color-2 .icon {
     background: var(--color-2); }
     .services.color-2 .icon:before {
