@@ -667,7 +667,7 @@ body.offcanvas {
     height: 50px;
     display: table;
     margin: 0 auto;
-    background: var(--primary-color); }
+    background: var(--color-1); }
     .services .icon:before, .services .icon:after {
       position: absolute;
       left: 0;
