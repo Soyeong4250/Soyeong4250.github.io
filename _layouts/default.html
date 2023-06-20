@@ -81,7 +81,7 @@
 						<li><a href="#" data-nav-section="experience">Career</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="blog">Blog</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
+<!-- 						<li><a href="#" data-nav-section="contact">Contact</a></li> -->
 					</ul>
 				</div>
 			</nav>
@@ -512,7 +512,7 @@
 				</div>
 			</section>
 
-			<section class="colorlib-contact" data-section="contact">
+<!-- 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -574,7 +574,7 @@
 					</div>
 				</div>
 				
-			</section>
+			</section> -->
 
 
 		</div><!-- end:colorlib-main -->
@@ -606,25 +606,25 @@
         //         var input = confirm('감사합니다. 곧 회신드리도록 하겠습니:)');
         //     });
         // });
-        function createData() { 
-        var sendData = $('#gform').serialize(); 
-        return sendData;
-	     }
-	     function mailSend(){
-	      $.ajax({
-	         type : "POST",
-	         url : "https://script.google.com/macros/s/AKfycbz-frwBTGvIeei6eC125WczGVfQwFRHrCiw5veAUA/exec",
-	         data : createData(),
-	         datatype:"json",
-	         success : function(data, status, xhr){
-	            var input = confirm('연락주셔서 영광입니다. 24시간 이내에는 꼭 회신드리도록 하겠습니다! :)');
-	         },
-	         error : function(jqXHR, textStatus, errorThrown){
-	         	console.log("error")
-	            //여기는 메일이 안보내졌을 때 발생하는 문제가 있을 때 인것 같아요
-	         }
-	      });  
-	     }
+      //   function createData() { 
+      //   var sendData = $('#gform').serialize(); 
+      //   return sendData;
+	     // }
+	     // function mailSend(){
+	     //  $.ajax({
+	     //     type : "POST",
+	     //     url : "https://script.google.com/macros/s/AKfycbz-frwBTGvIeei6eC125WczGVfQwFRHrCiw5veAUA/exec",
+	     //     data : createData(),
+	     //     datatype:"json",
+	     //     success : function(data, status, xhr){
+	     //        var input = confirm('연락주셔서 영광입니다. 24시간 이내에는 꼭 회신드리도록 하겠습니다! :)');
+	     //     },
+	     //     error : function(jqXHR, textStatus, errorThrown){
+	     //     	console.log("error")
+	     //        //여기는 메일이 안보내졌을 때 발생하는 문제가 있을 때 인것 같아요
+	     //     }
+	     //  });  
+	     // }
 
 	 //    $("a").bind("click", function(e) {
 		//     e.preventDefault();
