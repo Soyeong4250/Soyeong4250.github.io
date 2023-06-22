@@ -435,7 +435,7 @@
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 									{% for edu in site.edu_list %}
 										<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="edu_heading_{{forloop.index}}">
+											<div class="panel-heading {{edu.color || color-1}}" role="tab" id="edu_heading_{{forloop.index}}">
 												<h4 class="panel-title">
 													{% if forloop.first %}
 														<a data-toggle="collapse" data-parent="#accordion" href="#edu_collapser_{{forloop.index}}" aria-expanded="true" aria-controls="edu_collapser_{{forloop.index}}">
