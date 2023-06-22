@@ -171,7 +171,7 @@ exp_services: # 형식에 맞추어 항목 추가
   - name: 기술습득
     color: color-2
     icon: icon-home
-    content: 삼성청년SW아카데미, 멋쟁이사자처럼 백엔드스쿨, 공공빅데이터 청년인턴십 등 다양한 교육을 통해 분야를 가리지 않고 지식을 쌓아나갑니다.
+    content: SSAFY, 멋쟁이사자처럼 백엔드스쿨, 공공빅데이터 청년인턴십 등 다양한 교육을 통해 분야를 가리지 않고 지식을 쌓아나갑니다.
   - name: 프로젝트
     color: color-3
     icon: icon-phone3
