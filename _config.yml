@@ -213,10 +213,12 @@ edu_list:
   #   date: 2020.08 - 2020.09
   #   content: 행정안전부와 한국정보화진흥원에서 주관하는 빅데이터 교육 과정으로 1개월의 교육 수료 후, 3개월간 도로교통공단에 배치되어 실무 프로젝트를 진행하였습니다.
   - title: GEUMGANG UNIVERSITY
+    color: color-1
     subtitle: 금강대학교 IT 소프트웨어학과 & 경영학과(융합전공) 졸업
     date: 2016.03 - 2021.08
     content: IT 소프트웨어학과 경영학을 융합전공하였으며, 학생들을 위해 학교 애플리케이션을 만들어 교내 만족도를 높인 경험이 있습니다. 
   - title: SAINTPAUL GIRLS' HIGH SCHOOL
+    color: color-1
     subtitle: 쌘뽈여자고등학교
     date: 2013.03 - 2016.02
     content: >-
