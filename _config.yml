@@ -182,18 +182,18 @@ exp_counters:
 carerr_meta: career
 career_header: Work Career
 career_list:
-  - name: 과기전통부 산학과제
-    date: 2020.06~2020.11
-    content: PlenOPtic Video에서 객체 tracking 연구  <br> 중대형 공간용 초고해상도 비정형 플렌옵틱 동영상 저작/재생 플랫폼 기술 개발
+  - name: 인지소프트
+    date: 2023.04~
+    content: React.js를 이용한 증권사 ODS 화면 개발
     color: color-1
     icon: icon-pen2
     animation: fadeInLeft
-  - name: Voice Caddie 산학과제
-    date: 2021.05~2021.10
-    content: 현재 골프치는 사람의 Pose와 Multi-view를 연구하고 있습니다.
-    color: color-2
-    icon: icon-pen2
-    animation: fadeInRight
+  # - name: Voice Caddie 산학과제
+  #   date: 2021.05~2021.10
+  #   content: 현재 골프치는 사람의 Pose와 Multi-view를 연구하고 있습니다.
+  #   color: color-2
+  #   icon: icon-pen2
+  #   animation: fadeInRight
 
 # Education
 edu_meta: Education
