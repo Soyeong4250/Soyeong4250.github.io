@@ -168,22 +168,25 @@ exp_services: # 형식에 맞추어 항목 추가
   - name: 매니지먼트
     color: color-1
     icon: icon-bulb
-    content: 6개의 프로젝트 모두 팀장을 맡아 각 팀원들의 능력을 파악하고 업무를 배정하고 관리하였습니다.
+    content: 3개의 프로젝트에서 PM 역할을 맡아 각 팀원들의 역량을 파악하고 업무 배정 및 개발 일정을 관리하였습니다.
   - name: 기술습득
     color: color-2
     icon: icon-home
-    content: 제가 선택한 길, 항상 열정을 다해 공부하며 새로운 기술에 대해 즐거운 마음으로 배웁니다.
+    content: 삼성청년SW아카데미, 멋쟁이사자처럼 백엔드스쿨, 공공빅데이터 청년인턴십 등 다양한 교육을 통해 분야를 가리지 않고 지식을 쌓아나갑니다.
   - name: 프로젝트
     color: color-3
     icon: icon-phone3
     content: 다양한 프로젝트를 기획, 진행 해왔기에 업무에 대한 협력과 배분이 익숙합니다. 새로운 프로젝트에 도전적입니다.
 exp_counters:
-  - name: Online Class Sales
-    count: 344
-    speed: 10000
-  - name: project
-    count: 6
+  - name: IT Experience
+    count: 3
     speed: 5000
+  - name: project
+    count: 5
+    speed: 10000
+  - name: IT Certificate
+    count: 2
+    speed: 3000
 
 # Career
 carerr_meta: career
@@ -206,22 +209,19 @@ career_list:
 edu_meta: Education
 edu_header: Education
 edu_list:
-  - title: KOREA UNIVERSITY ARTIFICIAL INTELLIGENCE MASTER'S DEGREE
-    subtitle: 고려대 인공지능학과 대학원 석사과정
-    date: 20xx.01 - 현재
-    content: 설명설명 설명글
-  - title: HANSUNG UNIVERSITY
-    subtitle: xx대학교 xx과 졸업
-    date: 20xx.03 - 20xx.02
-    content: 나에대한 간단한 설명글
-  - title: YEOUIDO HIGH SCHOOL
-    subtitle: xx고등학교
-    date: 20xx.03 - 20xx.02
+  # - title: 2020 BIGDATA INTERN
+  #   subtitle: 2020년 공공빅데이터 청년 인턴십 확대 운영
+  #   date: 2020.08 - 2020.09
+  #   content: 행정안전부와 한국정보화진흥원에서 주관하는 빅데이터 교육 과정으로 1개월의 교육 수료 후, 3개월간 도로교통공단에 배치되어 실무 프로젝트를 진행하였습니다.
+  - title: GEUMGANG UNIVERSITY
+    subtitle: 금강대학교 IT 소프트웨어학과 & 경영학과(융합전공) 졸업
+    date: 2016.03 - 2021.08
+    content: IT 소프트웨어학과 경영학을 융합전공하였으며, 학생들을 위해 학교 애플리케이션을 만들어 교내 만족도를 높인 경험이 있습니다. 
+  - title: SAINTPAUL GIRLS' HIGH SCHOOL
+    subtitle: 쌘뽈여자고등학교
+    date: 2013.03 - 2016.02
     content: >-
-      설명글
-      설명글
-      설명글
-      설명글
+      이과를 전공하였으며, 천체동아리, 프로그래밍 동아리 등에 참여하였습니다.
 
 # Blog
 blog_meta: self-improvement
@@ -249,19 +249,19 @@ blog_list:
     link: #
 
 # Contact
-contact_meta: Get in Touch
-contact_header: Contact
-contact_list:
-  - title: 이런것들도 손쉽게 고칠수 있게 만들어주세요
-    icon: icon-globe-outline
-  - title: 주소
-    icon: icon-map
-  - title: +82 10 xxxx xxxx
-    icon: icon-phone
-  - title: 웹 주소
-    icon: icon-layers2
-    url: https://google.com
-contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
+# contact_meta: Get in Touch
+# contact_header: Contact
+# contact_list:
+#   - title: 이런것들도 손쉽게 고칠수 있게 만들어주세요
+#     icon: icon-globe-outline
+#   - title: 주소
+#     icon: icon-map
+#   - title: +82 10 xxxx xxxx
+#     icon: icon-phone
+#   - title: 웹 주소
+#     icon: icon-layers2
+#     url: https://google.com
+# contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
 
 optional_front_matter:
   remove_originals: true
