@@ -39,8 +39,7 @@ slider_1: # 형식에 맞추어 항목 추가
     subtitle: >-
       누군가에게 도움이 되는<br>
       서비스를 개발하고 싶은<br>
-      신입 개발자<br>
-      <h4>이소영</h4>입니다.
+      신입 개발자 <strong>이소영</strong>입니다.
 
 # About
 about_meta: About Me
