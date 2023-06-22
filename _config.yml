@@ -179,13 +179,13 @@ exp_services: # 형식에 맞추어 항목 추가
 exp_counters:
   - name: IT Experience
     count: 3
-    speed: 50000
+    speed: 500000
   - name: project
     count: 5
-    speed: 100000
+    speed: 1000000
   - name: IT Certificate
     count: 2
-    speed: 30000
+    speed: 300000
 
 # Career
 carerr_meta: career
