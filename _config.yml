@@ -30,7 +30,7 @@ color_6: CF94D8
 # slider type 0  (텍스트가 우측 정렬된 슬라이더)
 slider_0: # 형식에 맞추어 항목 추가
   - background_url: images/cover_bg_3.jpeg
-    title: 안녕하세요. <br>반갑습니다!</br>
+    title: 안녕하세요! <br>반갑습니다 😊</br>
 
 # slider type 1  (텍스트가 좌측 정렬된 슬라이더)
 slider_1: # 형식에 맞추어 항목 추가
@@ -45,12 +45,16 @@ slider_1: # 형식에 맞추어 항목 추가
 # About
 about_meta: About Me
 about_header: >-
-  ""
-about_introduce: >-
-  "안녕하세요. 사람들의 불편함을 만족감으로 바꾸고 싶은 신입 개발자, 이소영입니다."
+  "사람들의 불편함을 만족감으로 바꾸고 싶은 신입 개발자, 이소영입니다."
+# about_introduce: >-
+#   "안녕하세요. 이소영입니다."
 about_content: >-
   삼성청년SW아카데미, 멋쟁이사자처럼 백엔드스쿨 등 다양한 SW교육을 통해 여러가지 프로젝트를 진행하였습니다.</br>
   프로젝트에서 다양한 역할을 도맡아 웹 지식을 넓혀나갔으며, 사람들이 가장 많이 접하는 웹에 흥미가 생겨 웹 개발자가 되는 계기가 되었습니다.
+  <strong>기존 코드의 리팩토링을 통해 성능을 향상시키는 것을 좋아합니다</strong></br>
+  기존 Service Layer에서 처리했던 예외를 SpringSecurity에 ExceptionHandler를 설정함으로써 기능을 개선시킨 경험이 있습니다.</br>
+  <string>다양한 관점에서 문제를 고민해보고 해결하고자 노력합니다</strong></br>
+  기능에 문제가 발생하였을 때 서버 뿐 아니라 DB, 프론트엔드, 배포 모든 관점에서 고민해보고 해결합니다. 또한, 해결한 문제를 발생한 "에러-원인-해결과정"의 형식으로 노션에 정리함으로써 문제를 되짚고 넘어가고자 합니다.
 about_services: # 형식에 맞추어 항목 추가
   - icon: icon-code
     name: Java
@@ -60,10 +64,10 @@ about_services: # 형식에 맞추어 항목 추가
     name: Web
   - icon: icon-cog-outline
     name: DevOps
-about_box_content: 괜찮은 문구 <br>박스 색바꾸는 yml파일에 추가 <br><br><br>야물파일로 변환 <strong>의뢰</strong>의뢰
-about_box_button:
-  link: #
-  name: sample
+# about_box_content: 괜찮은 문구 <br>박스 색바꾸는 yml파일에 추가 <br><br><br>야물파일로 변환 <strong>의뢰</strong>의뢰
+# about_box_button:
+#   link: #
+#   name: sample
 
 # Tech  skill
 tech_meta: TECH SKILLS
