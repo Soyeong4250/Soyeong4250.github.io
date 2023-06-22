@@ -58,7 +58,7 @@ about_services: # 형식에 맞추어 항목 추가
     name: Server
   - icon: icon-monitor
     name: Web
-  - icon: icon-cogs
+  - icon: icon-cog-outline
     name: DevOps
 about_box_content: 괜찮은 문구 <br>박스 색바꾸는 yml파일에 추가 <br><br><br>야물파일로 변환 <strong>의뢰</strong>의뢰
 about_box_button:
