@@ -345,17 +345,17 @@
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
 									{% for ach in site.ach_list %}
 										<div class="panel panel-default">
 											<div class="panel-heading" role="tab" id="ach_heading_{{forloop.index}}">
 												<h4 class="panel-title">
 													{% if forloop.first %}
-														<a data-toggle="collapse" data-parent="#accordion" href="#ach_collapser_{{forloop.index}}" aria-expanded="true" aria-controls="ach_collapser_{{forloop.index}}">
+														<a data-toggle="collapse" data-parent="#accordion1" href="#ach_collapser_{{forloop.index}}" aria-expanded="true" aria-controls="ach_collapser_{{forloop.index}}">
 															{{ ach.title }}
 														</a>
 													{% else %}
-														<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ach_collapser_{{forloop.index}}" aria-expanded="false" aria-controls="ach_collapser_{{forloop.index}}">
+														<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#ach_collapser_{{forloop.index}}" aria-expanded="false" aria-controls="ach_collapser_{{forloop.index}}">
 															{{ ach.title }}
 														</a>
 													{% endif %}
@@ -497,17 +497,17 @@
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
 									{% for edu in site.edu_list %}
 										<div class="panel panel-default">
 											<div class="panel-heading {{edu.color || color-1}}" role="tab" id="edu_heading_{{forloop.index}}">
 												<h4 class="panel-title">
 													{% if forloop.first %}
-														<a data-toggle="collapse" data-parent="#accordion" href="#edu_collapser_{{forloop.index}}" aria-expanded="true" aria-controls="edu_collapser_{{forloop.index}}">
+														<a data-toggle="collapse" data-parent="#accordion2" href="#edu_collapser_{{forloop.index}}" aria-expanded="true" aria-controls="edu_collapser_{{forloop.index}}">
 															{{ edu.title }}
 														</a>
 													{% else %}
-														<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#edu_collapser_{{forloop.index}}" aria-expanded="false" aria-controls="edu_collapser_{{forloop.index}}">
+														<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#edu_collapser_{{forloop.index}}" aria-expanded="false" aria-controls="edu_collapser_{{forloop.index}}">
 															{{ edu.title }}
 														</a>
 													{% endif %}
