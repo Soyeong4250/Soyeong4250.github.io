@@ -348,23 +348,23 @@
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 									{% for ach in site.ach_list %}
 										<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="edu_heading_{{forloop.index}}">
+											<div class="panel-heading" role="tab" id="ach_heading_{{forloop.index}}">
 												<h4 class="panel-title">
 													{% if forloop.first %}
-														<a data-toggle="collapse" data-parent="#accordion" href="#edu_collapser_{{forloop.index}}" aria-expanded="true" aria-controls="edu_collapser_{{forloop.index}}">
+														<a data-toggle="collapse" data-parent="#accordion" href="#ach_collapser_{{forloop.index}}" aria-expanded="true" aria-controls="ach_collapser_{{forloop.index}}">
 															{{ ach.title }}
 														</a>
 													{% else %}
-														<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#edu_collapser_{{forloop.index}}" aria-expanded="false" aria-controls="edu_collapser_{{forloop.index}}">
+														<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ach_collapser_{{forloop.index}}" aria-expanded="false" aria-controls="ach_collapser_{{forloop.index}}">
 															{{ ach.title }}
 														</a>
 													{% endif %}
 												</h4>
 											</div>
 											{% if forloop.first %}
-											<div id="edu_collapser_{{forloop.index}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="edu_heading_{{forloop.index}}">
+											<div id="ach_collapser_{{forloop.index}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="ach_heading_{{forloop.index}}">
 											{% else %}
-											<div id="edu_collapser_{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="edu_heading_{{forloop.index}}">
+											<div id="ach_collapser_{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="ach_heading_{{forloop.index}}">
 											{% endif %}
 												<div class="panel-body">
 													{% for ach_sub in ach.ach_sublist %}
