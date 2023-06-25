@@ -369,14 +369,19 @@
 												<div class="panel-body">
 													{% for ach_sub in ach.ach_sublist %}
 														<div class="row">
-															<div class="col-md-4">
+															<div class="col-md-3">
 																<p>
 																	{{ ach_sub.subtitle }}
 																	<br>
 																	{{ ach_sub.date }}
 																</p>
 															</div>
-															<div class="col-md-8">
+															<div class="col-md-3">
+																<p>
+																	{{ ach_sub.agency }}
+																</p>
+															</div>
+															<div class="col-md-6">
 																<p>{{ ach_sub.content }}</p>
 															</div>
 														</div>
