@@ -366,8 +366,8 @@
 											{% else %}
 											<div id="edu_collapser_{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="edu_heading_{{forloop.index}}">
 											{% endif %}
-												{% for ach_sub in site.ach_sublist %}
-													<div class="panel-body">
+											<div class="panel-body">
+														{% for ach_sub in site.ach_sublist %}
 														<div class="row">
 															<div class="col-md-4">
 																<p>
@@ -380,8 +380,8 @@
 																<p>{{ ach.content }}</p>
 															</div>
 														</div>
+														{% endfor %}
 													</div>
-												{% endfor %}
 											</div>
 										</div>
 									{% endfor %}
