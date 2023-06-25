@@ -152,12 +152,39 @@ project_team: # 형식에 맞추어 항목 추가
 #     animation: fadeInTop
 #     name: 인프런강의(2021~)
 #     description: >-
-#       취준과 대학원진학을 동시에 했을때 많은 곳에서 github 주소뿐만아니라 개발 블로그주소도 요청하는데가 많았다.(물론 필수는 아니였지만) 
-#       또한 교육기관(멋쟁이사자처럼,네이버 부스트 캠프, 소마등)에서도 마찬가지이다. 현재 프로그래밍의 중요도가 올라가고있으며 초등학생부터 의무교육을 시작한다고 한다. 
-#       많은 비전공자들이 뒤늦게 프로그래밍을 시작하고 있다. 열심히 배우고 지원할려니 개발 블로그를 요청한다... 프로그래밍을 시작할때 알았다면 얼마나 좋았을까. 
+#       취준과 대학원진학을 동시에 했을때 많은 곳에서 github 주소뿐만아니라 개발 블로그주소도 요청하는데가 많았다.(물론 필수는 아니였지만)
+#       또한 교육기관(멋쟁이사자처럼,네이버 부스트 캠프, 소마등)에서도 마찬가지이다. 현재 프로그래밍의 중요도가 올라가고있으며 초등학생부터 의무교육을 시작한다고 한다.
+#       많은 비전공자들이 뒤늦게 프로그래밍을 시작하고 있다. 열심히 배우고 지원할려니 개발 블로그를 요청한다... 프로그래밍을 시작할때 알았다면 얼마나 좋았을까.
 #       공부하면서 블로그 내용을 채웠으면 참 좋았을것이다. 이런 흐름을 캐치하여 나는 개발자다운 블로그인 깃헙블로그를 만드는 짧은 강의를 만들었다.
 #     detail_url: #
 #     readmore_url: #
+
+# achievement
+ach_meta: achievement
+ach_header: achievement
+ach_list:
+  # - title: KOREA UNIVERSITY ARTIFICIAL INTELLIGENCE MASTER'S DEGREE
+  #   subtitle: 고려대 인공지능학과 대학원 석사과정
+  #   date: 20xx.01 - 현재
+  #   content: 설명설명 설명글
+  - title: Contest
+    ach_sublist:
+      - subtitle: subtitle1
+        date: 2023.06.25 ~
+        content: content1
+      - subtitle: subtitle2
+        date: date2
+        content: content2
+    # date: 2016.03 - 2022.02
+  - title: Certificate
+    ach_sublist:
+      - subtitle: subtitle1
+        date: date1
+        content: >-
+          설명글
+          설명글
+          설명글
+          설명글
 
 # Experience
 exp_meta: What have I achieved?
@@ -216,7 +243,7 @@ edu_list:
     color: color-1
     subtitle: 금강대학교 IT 소프트웨어학과 & 경영학과(융합전공) 졸업
     date: 2016.03 - 2021.08
-    content: IT 소프트웨어학과 경영학을 융합전공하였으며, 학생들을 위해 학교 애플리케이션을 만들어 교내 만족도를 높인 경험이 있습니다. 
+    content: IT 소프트웨어학과 경영학을 융합전공하였으며, 학생들을 위해 학교 애플리케이션을 만들어 교내 만족도를 높인 경험이 있습니다.
   - title: SAINTPAUL GIRLS' HIGH SCHOOL
     color: color-1
     subtitle: 쌘뽈여자고등학교
